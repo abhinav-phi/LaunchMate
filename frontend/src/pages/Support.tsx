@@ -6,15 +6,15 @@ import Button from '../components/UI/Button';
 const Support: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Team Member 1',
-      github: 'member1-github',
-      githubUrl: 'https://github.com/member1-github',
+      name: 'Abhinav',
+      github: 'abhinav-phi',
+      githubUrl: 'https://github.com/abhinav-phi',
       bio: 'Full-stack developer passionate about startup ecosystems'
     },
     {
-      name: 'Team Member 2',
-      github: 'member2-github',
-      githubUrl: 'https://github.com/member2-github',
+      name: 'Daksh Dagar',
+      github: 'DakshDagar01',
+      githubUrl: 'https://github.com/DakshDagar01',
       bio: 'Frontend specialist focused on user experience'
     }
   ];

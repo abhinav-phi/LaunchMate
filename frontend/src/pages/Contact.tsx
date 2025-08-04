@@ -5,18 +5,18 @@ import Card from '../components/UI/Card';
 const Contact: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Team Member 1',
-      instagram: '@member1_insta',
-      discord: 'member1#1234',
-      instagramUrl: 'https://instagram.com/member1_insta',
-      discordUrl: 'https://discord.com/users/member1'
+      name: 'Abhinav',
+      instagram: '@abhinav.phi',
+      discord: 'abhinav.phi',
+      instagramUrl: 'https://instagram.com/abhinav.phi',
+      discordUrl: 'https://discord.com/users/abhinav.phi'
     },
     {
-      name: 'Team Member 2',
-      instagram: '@member2_insta',
+      name: 'Daksh Dagar',
+      instagram: '@dakshdagar884',
       discord: 'member2#5678',
-      instagramUrl: 'https://instagram.com/member2_insta',
-      discordUrl: 'https://discord.com/users/member2'
+      instagramUrl: 'https://instagram.com/dakshdagar884',
+      discordUrl: 'https://discord.com/users/daksh'
     }
   ];
 
