@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
       instagram: '@dakshdagar884',
       discord: 'member2#5678',
       instagramUrl: 'https://instagram.com/dakshdagar884',
-      discordUrl: 'https://discord.com/users/daksh'
+      discordUrl: 'https://discord.com/users/dakshdagar'
     }
   ];
 
