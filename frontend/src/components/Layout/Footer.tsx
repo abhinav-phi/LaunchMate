@@ -149,10 +149,10 @@ const Footer: React.FC = () => {
               <a href="https://github.com/abhinav-phi/LaunchMate" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-sm transition-colors">
                 GitHub
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <a href="https://linkedin.com/in/abhinavphi" className="text-gray-400 hover:text-white text-sm transition-colors">
                 LinkedIn
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <a href="https://x.com/abhinav_phi" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Twitter
               </a>
             </div>
