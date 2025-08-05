@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
     {
       name: 'Daksh Dagar',
       instagram: '@dakshdagar884',
-      discord: 'member2#5678',
+      discord: 'dakshdagar',
       instagramUrl: 'https://instagram.com/dakshdagar884',
       discordUrl: 'https://discord.com/users/dakshdagar'
     }

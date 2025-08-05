@@ -9,13 +9,13 @@ const Support: React.FC = () => {
       name: 'Abhinav',
       github: 'abhinav-phi',
       githubUrl: 'https://github.com/abhinav-phi',
-      bio: 'Full-stack developer passionate about startup ecosystems'
+      bio: 'Full-stack developer passionate about startup ecosystems.'
     },
     {
       name: 'Daksh Dagar',
       github: 'DakshDagar01',
       githubUrl: 'https://github.com/DakshDagar01',
-      bio: 'Frontend specialist focused on user experience'
+      bio: 'Frontend specialist focused on user experience.'
     }
   ];
 
