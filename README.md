@@ -1,191 +1,120 @@
-# 🚀 LaunchMate
+# LaunchMate
 
-<div align="center">
+## A Unified Startup Launch & Compliance Assistant for Delhi Entrepreneurs
 
-![LaunchMate Logo](https://via.placeholder.com/200x80/4F46E5/FFFFFF?text=LaunchMate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-4.x-green)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.x-green)](https://www.mongodb.com/)
 
-**The Ultimate Platform for Startup & Product Launch Success**
-
-*Empowering entrepreneurs and teams to launch with confidence, community, and comprehensive tools*
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green.svg)](https://www.mongodb.com/)
-[![Express.js](https://img.shields.io/badge/Express.js-4.18-lightgrey.svg)](https://expressjs.com/)
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_LaunchMate-4F46E5?style=for-the-badge)](https://launchmate-demo.vercel.app)
-[![Video Demo](https://img.shields.io/badge/🎥_Video_Demo-Watch_Now-FF0000?style=for-the-badge)](https://youtube.com/watch?v=demo-placeholder)
-
-</div>
+> Empowering entrepreneurs and teams to launch with confidence, community, and comprehensive tools for navigating startup compliance and approvals in Delhi.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [🎯 About LaunchMate](#-about-launchmate)
-- [✨ Key Features](#-key-features)
-- [🛠️ Technology Stack](#️-technology-stack)
-- [🏗️ Architecture](#️-architecture)
-- [🚀 Quick Start](#-quick-start)
-- [📊 API Documentation](#-api-documentation)
-- [🔒 Security & Privacy](#-security--privacy)
-- [🧪 Testing](#-testing)
-- [🚢 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
-- [🗺️ Roadmap](#️-roadmap)
-- [🔧 Troubleshooting](#-troubleshooting)
-- [📄 License](#-license)
-- [👥 Team](#-team)
-
----
-
-## 🎯 About LaunchMate
-
-LaunchMate is a comprehensive platform designed to transform how entrepreneurs and teams approach product launches. Born from the understanding that **90% of startups fail due to poor launch execution**, LaunchMate provides the structure, community, and tools needed to beat the odds.
-
-### 🌟 Why LaunchMate?
-
-- **📈 Data-Driven Success**: Launch strategies backed by analysis of 10,000+ successful launches
-- **🤝 Community Power**: Connect with mentors, advisors, and fellow entrepreneurs
-- **🎯 Structured Approach**: Step-by-step guidance from idea to market success
-- **📊 Real-Time Analytics**: Track your launch progress with actionable insights
-- **🔧 All-in-One Platform**: Everything you need in one integrated solution
-
-### 🎪 Perfect For
-
-- 🚀 **Startup Founders** launching their first (or next) venture
-- 📱 **Product Managers** coordinating complex product releases  
-- 👥 **Development Teams** seeking structured launch processes
-- 💼 **Accelerators & Incubators** managing multiple portfolio launches
-- 🏢 **Enterprise Teams** launching internal products or initiatives
+- [About LaunchMate](#about-launchmate)
+- [Key Features](#key-features)
+- [System Architecture](#system-architecture)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Configuration](#configuration)
+- [API Documentation](#api-documentation)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Team](#team)
 
 ---
 
-## ✨ Key Features
+## About LaunchMate
 
-<details>
-<summary><strong>🎯 Launch Management Tools</strong></summary>
+LaunchMate is a comprehensive digital platform designed specifically for Delhi-based entrepreneurs and startups to streamline their launch process and ensure regulatory compliance. The platform addresses the critical challenges faced by 90% of startups that fail due to poor launch execution and compliance issues.
 
-- **Smart Launch Checklists**: AI-powered, industry-specific launch sequences
-- **Timeline Management**: Visual project timelines with milestone tracking
-- **Task Automation**: Automated reminders and workflow triggers
-- **Progress Analytics**: Real-time launch progress dashboards
-- **Risk Assessment**: Identify and mitigate launch risks early
+### Our Mission
+To democratize startup success by providing structured guidance, automated compliance tracking, and community-driven support for entrepreneurs navigating the complex regulatory landscape of Delhi's business ecosystem.
 
-</details>
-
-<details>
-<summary><strong>🤝 Community & Networking</strong></summary>
-
-- **Mentor Matching**: Connect with experienced entrepreneurs and advisors
-- **Peer Networks**: Join launch cohorts with similar-stage startups
-- **Expert Sessions**: Access to industry experts and successful founders
-- **Feedback Loops**: Structured feedback collection from target audiences
-- **Success Stories**: Learn from detailed case studies and launch post-mortems
-
-</details>
-
-<details>
-<summary><strong>📊 Analytics & Insights</strong></summary>
-
-- **Launch Metrics Dashboard**: Track KPIs, user acquisition, and growth metrics
-- **Market Analysis Tools**: Competitive landscape and market sizing tools
-- **User Behavior Analytics**: Understand how users interact with your product
-- **A/B Testing Platform**: Test different launch strategies and messaging
-- **ROI Tracking**: Measure launch investment returns and optimize spending
-
-</details>
-
-<details>
-<summary><strong>🛠️ Resource Management</strong></summary>
-
-- **Document Hub**: Centralized storage for pitch decks, business plans, and assets
-- **Team Collaboration**: Real-time collaboration tools for distributed teams
-- **Template Library**: Pre-built templates for common launch materials
-- **Integration Ecosystem**: Connect with 50+ popular business tools
-- **Mobile App**: Full-featured mobile experience for on-the-go management
-
-</details>
+### Target Audience
+- **Startup Founders** launching their first venture in Delhi
+- **Product Managers** coordinating complex product releases
+- **Development Teams** seeking structured launch processes
+- **Business Consultants** managing multiple client launches
+- **Incubators & Accelerators** supporting portfolio companies
 
 ---
 
-## 🛠️ Technology Stack
+## Key Features
 
-<div align="center">
+### Launch Management Suite
+- **Smart Launch Checklists**: AI-powered, industry-specific launch sequences tailored for Delhi market
+- **Timeline Management**: Visual project timelines with milestone tracking and deadline alerts
+- **Task Automation**: Automated reminders and workflow triggers for critical launch activities
+- **Progress Analytics**: Real-time launch progress dashboards with KPI tracking
+- **Risk Assessment**: Early identification and mitigation of potential launch risks
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+### Compliance & Regulatory Tools
+- **Approval Tracker**: Monitor status of government approvals, licenses, and permits
+- **Compliance Calendar**: Automated reminders for regulatory deadlines and renewals
+- **Document Generator**: Pre-filled templates for common regulatory documents
+- **Scheme Recommender**: AI-powered recommendations for relevant government schemes
+- **Setup Wizard**: Step-by-step guidance through Delhi startup registration process
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+### AI-Powered Assistant
+- **Smart Recommendations**: Personalized suggestions based on industry and business model
+- **Compliance Checker**: Automated verification of document completeness and accuracy
+- **Market Analysis**: Data-driven insights on Delhi market trends and opportunities
+- **Success Prediction**: Launch success probability based on historical data
+- **24/7 Support**: AI chatbot for instant queries and guidance
 
-### Database & Storage
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![AWS S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+### Multi-language Support
+- **Hindi & English**: Fully localized interface for better accessibility
+- **Cultural Adaptation**: Delhi-specific business context and terminology
+- **Regional Compliance**: State-specific regulatory requirements and processes
 
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-</div>
+### Analytics & Reporting
+- **Launch Metrics Dashboard**: Track user acquisition, growth metrics, and ROI
+- **Compliance Reports**: Generate reports for investor meetings and regulatory submissions
+- **Performance Analytics**: Monitor platform usage and engagement metrics
+- **Export Capabilities**: PDF/Excel export for all reports and data
 
 ---
 
-## 🏗️ Architecture
+## System Architecture
 
 ```mermaid
 graph TB
     subgraph "Client Layer"
-        A[React Frontend] --> B[Next.js App Router]
-        B --> C[Tailwind UI Components]
-        C --> D[Framer Motion Animations]
+        A[React Frontend] --> B[TypeScript Components]
+        B --> C[Tailwind CSS Styling]
+        C --> D[Responsive UI/UX]
     end
     
-    subgraph "API Gateway"
-        E[Express.js Server] --> F[GraphQL Endpoint]
-        E --> G[REST API Routes]
-        E --> H[WebSocket Server]
-    end
-    
-    subgraph "Business Logic"
-        I[Launch Management Service] --> J[Community Service]
-        J --> K[Analytics Service]
-        K --> L[Notification Service]
-        L --> M[Integration Service]
+    subgraph "Application Layer"
+        E[Express.js Server] --> F[REST API Routes]
+        F --> G[Business Logic Services]
+        G --> H[Middleware Stack]
     end
     
     subgraph "Data Layer"
-        N[(MongoDB Primary)] --> O[(MongoDB Replica)]
-        P[(Redis Cache)] --> Q[(Redis Sessions)]
-        R[AWS S3 Storage] --> S[CDN Distribution]
+        I[(MongoDB Database)] --> J[Mongoose ODM]
+        J --> K[Data Models]
+        K --> L[Schema Validation]
     end
     
     subgraph "External Services"
-        T[Email Service] --> U[SMS Service]
-        V[Payment Gateway] --> W[Analytics APIs]
-        X[Social Media APIs] --> Y[CRM Integrations]
+        M[Government APIs] --> N[Third-party Integrations]
+        N --> O[Email/SMS Services]
+        O --> P[Analytics Services]
     end
     
     A --> E
-    F --> I
     G --> I
-    H --> I
-    I --> N
-    I --> P
-    I --> R
-    I --> T
+    G --> M
     
     classDef frontend fill:#e1f5fe
     classDef backend fill:#f3e5f5
@@ -193,663 +122,1017 @@ graph TB
     classDef external fill:#fff3e0
     
     class A,B,C,D frontend
-    class E,F,G,H,I,J,K,L,M backend
-    class N,O,P,Q,R,S database
-    class T,U,V,W,X,Y external
+    class E,F,G,H backend
+    class I,J,K,L database
+    class M,N,O,P external
 ```
 
-### 🔄 Launch Workflow Architecture
+### Data Flow Architecture
 
 ```mermaid
-flowchart LR
-    A[Idea Validation] --> B[Market Research]
-    B --> C[Product Development]
-    C --> D[Launch Strategy]
-    D --> E[Pre-Launch Marketing]
-    E --> F[Launch Execution]
-    F --> G[Post-Launch Analysis]
-    G --> H[Growth Optimization]
+sequenceDiagram
+    participant U as User
+    participant F as Frontend
+    participant A as API Server
+    participant DB as MongoDB
+    participant EXT as External APIs
     
-    subgraph "LaunchMate Tools"
-        I[Validation Templates]
-        J[Research Dashboard]
-        K[Development Tracker]
-        L[Strategy Builder]
-        M[Marketing Automation]
-        N[Launch Dashboard]
-        O[Analytics Suite]
-        P[Growth Tools]
-    end
-    
-    A -.-> I
-    B -.-> J
-    C -.-> K
-    D -.-> L
-    E -.-> M
-    F -.-> N
-    G -.-> O
-    H -.-> P
+    U->>F: Interact with Application
+    F->>A: API Request
+    A->>DB: Query/Update Data
+    DB-->>A: Return Data
+    A->>EXT: External Service Call
+    EXT-->>A: Service Response
+    A-->>F: API Response
+    F-->>U: Updated UI
 ```
 
 ---
 
-## 🚀 Quick Start
+## Technology Stack
+
+### Frontend Technologies
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **React** | 18.x | Frontend framework for building user interfaces |
+| **TypeScript** | 5.x | Type-safe JavaScript for better development experience |
+| **Vite** | 5.x | Fast build tool and development server |
+| **Tailwind CSS** | 3.x | Utility-first CSS framework for styling |
+| **React Router** | 6.x | Client-side routing for single-page application |
+| **Lucide React** | Latest | Modern icon library for React components |
+| **React Context API** | Built-in | State management for themes, language, and app data |
+
+### Backend Technologies
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Node.js** | 18.x | JavaScript runtime for server-side development |
+| **Express.js** | 4.x | Web application framework for Node.js |
+| **MongoDB** | 6.x | NoSQL database for flexible data storage |
+| **Mongoose** | 8.x | MongoDB object modeling for Node.js |
+| **JWT** | Latest | JSON Web Tokens for secure authentication |
+| **Bcrypt** | Latest | Password hashing for security |
+
+### Development Tools
+| Tool | Purpose |
+|------|---------|
+| **ESLint** | Code linting and quality assurance |
+| **PostCSS** | CSS processing and optimization |
+| **Vite Config** | Build configuration and optimization |
+| **TypeScript Config** | Type checking and compilation settings |
+
+---
+
+## Project Structure
+
+```
+launchmate/
+├── backend/                    # Node.js/Express backend server
+│   ├── models/                 # MongoDB data models
+│   │   └── Subscriber.js       # Newsletter subscriber model
+│   ├── routes/                 # API route handlers
+│   │   └── subscribe.js        # Newsletter subscription routes
+│   ├── server.js               # Main server entry point
+│   ├── package.json            # Backend dependencies
+│   └── package-lock.json       # Dependency lock file
+│
+├── frontend/                   # React/TypeScript frontend
+│   ├── public/                 # Static assets
+│   │   └── assets/
+│   │       └── logo.png        # Application logo
+│   │
+│   ├── src/                    # Source code directory
+│   │   ├── components/         # Reusable React components
+│   │   │   ├── Layout/         # Layout components
+│   │   │   │   ├── Footer.tsx   # Application footer
+│   │   │   │   ├── Header.tsx   # Navigation header
+│   │   │   │   └── Layout.tsx   # Main layout wrapper
+│   │   │   ├── UI/             # UI component library
+│   │   │   │   ├── Button.tsx   # Custom button component
+│   │   │   │   ├── Card.tsx     # Card container component
+│   │   │   │   ├── ProgressBar.tsx # Progress indicator
+│   │   │   │   ├── Toast.tsx    # Toast notification
+│   │   │   │   └── ToastContainer.tsx # Toast manager
+│   │   │   └── NewsletterForm.js # Newsletter subscription form
+│   │   │
+│   │   ├── contexts/           # React Context providers
+│   │   │   ├── AppContext.tsx   # Global application state
+│   │   │   ├── DataManagementContext.tsx # Data management
+│   │   │   ├── LanguageContext.tsx # Internationalization
+│   │   │   └── ThemeContext.tsx # Theme management
+│   │   │
+│   │   ├── i18n/               # Internationalization
+│   │   │   ├── locales/        # Language files
+│   │   │   │   ├── en.json      # English translations
+│   │   │   │   └── hi.json      # Hindi translations
+│   │   │   └── index.ts        # i18n configuration
+│   │   │
+│   │   ├── pages/              # Application pages/screens
+│   │   │   ├── AIAssistant.tsx  # AI-powered assistant
+│   │   │   ├── ApprovalTracker.tsx # Government approval tracker
+│   │   │   ├── ComplianceCalendar.tsx # Regulatory calendar
+│   │   │   ├── Contact.tsx      # Contact information
+│   │   │   ├── Dashboard.tsx    # Main dashboard
+│   │   │   ├── DocumentGenerator.tsx # Document templates
+│   │   │   ├── Landing.tsx      # Landing page
+│   │   │   ├── SchemeRecommender.tsx # Government schemes
+│   │   │   ├── SetupWizard.tsx  # Startup setup guide
+│   │   │   └── Support.tsx      # Help and support
+│   │   │
+│   │   ├── App.tsx             # Root application component
+│   │   ├── main.tsx            # Application entry point
+│   │   ├── index.css           # Global CSS styles
+│   │   └── vite-env.d.ts       # Vite environment types
+│   │
+│   ├── index.html              # HTML template
+│   ├── package.json            # Frontend dependencies
+│   ├── package-lock.json       # Dependency lock file
+│   ├── eslint.config.js        # ESLint configuration
+│   ├── postcss.config.js       # PostCSS configuration
+│   ├── tailwind.config.js      # Tailwind CSS configuration
+│   ├── tsconfig.json           # TypeScript configuration
+│   ├── tsconfig.app.json       # App-specific TypeScript config
+│   ├── tsconfig.node.json      # Node.js TypeScript config
+│   └── vite.config.ts          # Vite build configuration
+│
+├── .gitignore                  # Git ignore rules
+├── LICENSE                     # MIT license file
+└── README.md                   # Project documentation
+```
+
+---
+
+## Getting Started
 
 ### Prerequisites
 
-- **Node.js** 18.x or higher
-- **MongoDB** 6.0 or higher
-- **Redis** 6.x or higher
-- **Git** for version control
+Before you begin, ensure you have the following installed on your system:
 
-### 1️⃣ Clone the Repository
+- **Node.js** (v18.0.0 or higher) - [Download](https://nodejs.org/)
+- **MongoDB** (v6.0 or higher) - [Installation Guide](https://docs.mongodb.com/manual/installation/)
+- **npm** (v9.0.0 or higher) - Comes with Node.js
+- **Git** - [Download](https://git-scm.com/)
 
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/abhinav-phi/launchmate.git
+   cd launchmate
+   ```
+
+2. **Install Backend Dependencies**
+   ```bash
+   cd backend
+   npm install
+   cd ..
+   ```
+
+3. **Install Frontend Dependencies**
+   ```bash
+   cd frontend
+   npm install
+   cd ..
+   ```
+
+4. **Environment Configuration**
+   
+   Create environment files for both backend and frontend:
+
+   **Backend (.env in backend/ directory):**
+   ```env
+   # Database Configuration
+   MONGODB_URI=mongodb://localhost:27017/launchmate
+   MONGODB_TEST_URI=mongodb://localhost:27017/launchmate_test
+   
+   # Server Configuration
+   PORT=5000
+   NODE_ENV=development
+   
+   # JWT Configuration
+   JWT_SECRET=your-super-secure-jwt-secret-key-change-in-production
+   JWT_EXPIRE=7d
+   
+   # Email Configuration (for newsletter)
+   SMTP_HOST=your-smtp-host
+   SMTP_PORT=587
+   SMTP_USER=your-email@example.com
+   SMTP_PASS=your-email-password
+   
+   # API Keys (if using external services)
+   GOVERNMENT_API_KEY=your-government-api-key
+   GOOGLE_MAPS_API_KEY=your-google-maps-api-key
+   ```
+
+   **Frontend (.env in frontend/ directory):**
+   ```env
+   # API Configuration
+   VITE_API_BASE_URL=http://localhost:5000/api
+   
+   # Application Configuration
+   VITE_APP_NAME=LaunchMate
+   VITE_APP_VERSION=1.0.0
+   
+   # Feature Flags
+   VITE_ENABLE_ANALYTICS=true
+   VITE_ENABLE_NOTIFICATIONS=true
+   ```
+
+5. **Database Setup**
+   ```bash
+   # Start MongoDB service
+   # On macOS with Homebrew:
+   brew services start mongodb-community
+   
+   # On Ubuntu/Debian:
+   sudo systemctl start mongod
+   
+   # On Windows:
+   net start MongoDB
+   ```
+
+### Running the Application
+
+1. **Start the Backend Server**
+   ```bash
+   cd backend
+   npm run dev
+   ```
+   Backend will be available at: `http://localhost:5000`
+
+2. **Start the Frontend Development Server**
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+   Frontend will be available at: `http://localhost:5173`
+
+3. **Access the Application**
+   
+   Open your browser and navigate to:
+   - **Frontend**: http://localhost:5173
+   - **Backend API**: http://localhost:5000/api
+
+### Available Scripts
+
+**Backend Scripts:**
 ```bash
-git clone https://github.com/abhinav-phi/LaunchMate.git
-cd LaunchMate
+npm run dev          # Start development server with hot reload
+npm start            # Start production server
+npm run test         # Run test suites
+npm run lint         # Run ESLint for code quality
 ```
 
-### 2️⃣ Install Dependencies
-
+**Frontend Scripts:**
 ```bash
-# Install backend dependencies
-npm install
-
-# Install frontend dependencies
-cd client
-npm install
-cd ..
+npm run dev          # Start Vite development server
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run lint         # Run ESLint for code quality
+npm run type-check   # Run TypeScript type checking
 ```
-
-### 3️⃣ Environment Configuration
-
-Create a `.env` file in the root directory:
-
-```env
-# Database Configuration
-MONGODB_URI=mongodb://localhost:27017/launchmate
-REDIS_URL=redis://localhost:6379
-
-# Authentication
-JWT_SECRET=your-super-secure-jwt-secret-key
-JWT_EXPIRES_IN=7d
-BCRYPT_ROUNDS=12
-
-# Email Service (SendGrid)
-SENDGRID_API_KEY=your-sendgrid-api-key
-FROM_EMAIL=noreply@launchmate.com
-
-# AWS Configuration
-AWS_ACCESS_KEY_ID=your-aws-access-key
-AWS_SECRET_ACCESS_KEY=your-aws-secret-key
-AWS_S3_BUCKET=launchmate-assets
-AWS_REGION=us-east-1
-
-# External APIs
-STRIPE_SECRET_KEY=sk_test_your-stripe-secret-key
-STRIPE_WEBHOOK_SECRET=whsec_your-webhook-secret
-GOOGLE_ANALYTICS_ID=GA_MEASUREMENT_ID
-
-# Application Settings
-NODE_ENV=development
-PORT=5000
-CLIENT_URL=http://localhost:3000
-API_URL=http://localhost:5000
-
-# Feature Flags
-ENABLE_ANALYTICS=true
-ENABLE_NOTIFICATIONS=true
-ENABLE_INTEGRATIONS=true
-```
-
-### 4️⃣ Database Setup
-
-```bash
-# Start MongoDB and Redis (if using Docker)
-docker-compose up -d mongodb redis
-
-# Run database migrations
-npm run db:migrate
-
-# Seed initial data
-npm run db:seed
-```
-
-### 5️⃣ Start Development Servers
-
-```bash
-# Terminal 1: Start backend server
-npm run dev:server
-
-# Terminal 2: Start frontend development server
-npm run dev:client
-
-# Or start both concurrently
-npm run dev
-```
-
-### 6️⃣ Access the Application
-
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:5000
-- **GraphQL Playground**: http://localhost:5000/graphql
-- **API Documentation**: http://localhost:5000/docs
-
-### 🎉 You're Ready!
-
-Visit http://localhost:3000 and create your first launch project!
 
 ---
 
-## 📊 API Documentation
+## Configuration
+
+### Frontend Configuration
+
+**Vite Configuration (vite.config.ts):**
+```typescript
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173,
+    host: true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: true,
+  },
+})
+```
+
+**Tailwind Configuration (tailwind.config.js):**
+```javascript
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#eff6ff',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+        },
+        success: '#10b981',
+        warning: '#f59e0b',
+        error: '#ef4444',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}
+```
+
+### Backend Configuration
+
+**MongoDB Connection:**
+```javascript
+const mongoose = require('mongoose');
+
+const connectDB = async () => {
+  try {
+    const conn = await mongoose.connect(process.env.MONGODB_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log(`MongoDB Connected: ${conn.connection.host}`);
+  } catch (error) {
+    console.error('Database connection error:', error);
+    process.exit(1);
+  }
+};
+```
+
+### Internationalization Setup
+
+**i18n Configuration:**
+```typescript
+import { createContext, useContext } from 'react';
+
+interface LanguageContextType {
+  language: 'en' | 'hi';
+  setLanguage: (lang: 'en' | 'hi') => void;
+  t: (key: string) => string;
+}
+
+export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
+```
+
+---
+
+## API Documentation
 
 ### Authentication Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register new user |
-| POST | `/api/auth/login` | User login |
-| POST | `/api/auth/logout` | User logout |
-| GET | `/api/auth/me` | Get current user |
-| POST | `/api/auth/forgot-password` | Request password reset |
-| POST | `/api/auth/reset-password` | Reset password |
+| Method | Endpoint | Description | Request Body |
+|--------|----------|-------------|--------------|
+| POST | `/api/auth/register` | User registration | `{ email, password, name, phone }` |
+| POST | `/api/auth/login` | User login | `{ email, password }` |
+| POST | `/api/auth/logout` | User logout | None |
+| GET | `/api/auth/profile` | Get user profile | None (requires token) |
+| PUT | `/api/auth/profile` | Update user profile | `{ name, phone, company }` |
+| POST | `/api/auth/forgot-password` | Request password reset | `{ email }` |
+| POST | `/api/auth/reset-password` | Reset password | `{ token, password }` |
 
-### Launch Management Endpoints
+### Newsletter Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/launches` | Get user's launches |
-| POST | `/api/launches` | Create new launch |
-| GET | `/api/launches/:id` | Get launch details |
-| PUT | `/api/launches/:id` | Update launch |
-| DELETE | `/api/launches/:id` | Delete launch |
-| POST | `/api/launches/:id/tasks` | Add task to launch |
-| PUT | `/api/launches/:id/tasks/:taskId` | Update task |
+| Method | Endpoint | Description | Request Body |
+|--------|----------|-------------|--------------|
+| POST | `/api/subscribe` | Newsletter subscription | `{ email, name? }` |
+| GET | `/api/subscribers` | Get all subscribers (admin) | None |
+| DELETE | `/api/subscribe/:email` | Unsubscribe | None |
 
-### Community Endpoints
+### Compliance Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/community/mentors` | Get available mentors |
-| POST | `/api/community/connect` | Request mentor connection |
-| GET | `/api/community/cohorts` | Get launch cohorts |
-| POST | `/api/community/cohorts/:id/join` | Join cohort |
-| GET | `/api/community/feedback` | Get feedback requests |
-| POST | `/api/community/feedback` | Submit feedback |
+| Method | Endpoint | Description | Request Body |
+|--------|----------|-------------|--------------|
+| GET | `/api/approvals` | Get approval status | None |
+| POST | `/api/approvals` | Create approval tracker | `{ type, description, deadline }` |
+| PUT | `/api/approvals/:id` | Update approval status | `{ status, notes }` |
+| GET | `/api/schemes` | Get recommended schemes | `{ industry, revenue, employees }` |
+| GET | `/api/documents` | Get document templates | `{ type }` |
 
-### GraphQL Schema
+### Analytics Endpoints
 
-<details>
-<summary><strong>View GraphQL Schema</strong></summary>
+| Method | Endpoint | Description | Request Body |
+|--------|----------|-------------|--------------|
+| GET | `/api/analytics/dashboard` | Get dashboard metrics | None |
+| GET | `/api/analytics/compliance` | Compliance analytics | None |
+| POST | `/api/analytics/events` | Track user events | `{ event, properties }` |
 
-```graphql
-type User {
-  id: ID!
-  email: String!
-  name: String!
-  avatar: String
-  role: UserRole!
-  launches: [Launch!]!
-  createdAt: DateTime!
-  updatedAt: DateTime!
-}
+### API Response Format
 
-type Launch {
-  id: ID!
-  title: String!
-  description: String!
-  status: LaunchStatus!
-  category: String!
-  targetDate: DateTime!
-  owner: User!
-  team: [User!]!
-  tasks: [Task!]!
-  metrics: LaunchMetrics
-  createdAt: DateTime!
-  updatedAt: DateTime!
-}
-
-type Task {
-  id: ID!
-  title: String!
-  description: String
-  status: TaskStatus!
-  priority: Priority!
-  assignee: User
-  dueDate: DateTime
-  dependencies: [Task!]!
-  createdAt: DateTime!
-  updatedAt: DateTime!
-}
-
-enum LaunchStatus {
-  PLANNING
-  IN_PROGRESS
-  PRE_LAUNCH
-  LAUNCHED
-  POST_LAUNCH
-}
-
-enum TaskStatus {
-  TODO
-  IN_PROGRESS
-  REVIEW
-  COMPLETED
-}
-
-enum Priority {
-  LOW
-  MEDIUM
-  HIGH
-  CRITICAL
+**Success Response:**
+```json
+{
+  "success": true,
+  "data": {
+    // Response data
+  },
+  "message": "Operation completed successfully"
 }
 ```
 
-</details>
+**Error Response:**
+```json
+{
+  "success": false,
+  "error": {
+    "code": "ERROR_CODE",
+    "message": "Human-readable error message",
+    "details": "Additional error details"
+  }
+}
+```
 
----
+### Authentication
 
-## 🔒 Security & Privacy
-
-### 🛡️ Security Measures
-
-- **Authentication**: JWT-based authentication with secure token storage
-- **Authorization**: Role-based access control (RBAC) for all resources
-- **Data Encryption**: AES-256 encryption for sensitive data at rest
-- **API Security**: Rate limiting, CORS protection, and input validation
-- **Infrastructure**: SSL/TLS encryption for all data in transit
-- **Monitoring**: Real-time security monitoring and threat detection
-
-### 🔐 Privacy Protection
-
-- **GDPR Compliant**: Full compliance with European data protection regulations
-- **Data Minimization**: Collect only necessary data for platform functionality
-- **User Control**: Users can export, modify, or delete their data anytime
-- **Anonymization**: Analytics data is anonymized to protect user privacy
-- **Audit Logs**: Comprehensive logging of all data access and modifications
-
-### 🚨 Security Best Practices
+The API uses JWT (JSON Web Tokens) for authentication. Include the token in the Authorization header:
 
 ```javascript
-// Example: Secure API endpoint with validation
-const validateLaunchData = [
-  body('title').isLength({ min: 3, max: 100 }).escape(),
-  body('description').isLength({ max: 1000 }).escape(),
-  body('targetDate').isISO8601().toDate(),
-  body('category').isIn(['saas', 'mobile', 'hardware', 'service'])
-];
-
-app.post('/api/launches', 
-  authenticate,
-  authorize(['user', 'admin']),
-  validateLaunchData,
-  rateLimiter,
-  createLaunch
-);
+headers: {
+  'Authorization': `Bearer ${token}`,
+  'Content-Type': 'application/json'
+}
 ```
 
 ---
 
-## 🧪 Testing
+## Testing
 
-### Test Coverage
+### Testing Strategy
 
-- **Unit Tests**: 95% coverage for business logic
-- **Integration Tests**: API endpoints and database operations
-- **E2E Tests**: Critical user journeys and workflows
-- **Performance Tests**: Load testing for scalability
-- **Security Tests**: Vulnerability scanning and penetration testing
+Our testing approach ensures reliability and maintainability:
+
+- **Unit Tests**: Test individual components and functions
+- **Integration Tests**: Test API endpoints and database interactions
+- **End-to-End Tests**: Test complete user workflows
+- **Performance Tests**: Test application performance under load
 
 ### Running Tests
 
+**Backend Tests:**
 ```bash
-# Run all tests
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-
-# Run specific test suites
-npm run test:unit
-npm run test:integration
-npm run test:e2e
-
-# Run tests in watch mode
-npm run test:watch
-
-# Run performance tests
-npm run test:performance
+cd backend
+npm test                    # Run all tests
+npm run test:watch         # Run tests in watch mode
+npm run test:coverage      # Generate coverage report
+npm run test:integration   # Run integration tests only
 ```
 
-### Test Structure
-
-```
-tests/
-├── unit/
-│   ├── services/
-│   ├── models/
-│   └── utils/
-├── integration/
-│   ├── api/
-│   └── database/
-├── e2e/
-│   ├── auth/
-│   ├── launches/
-│   └── community/
-└── performance/
-    ├── load/
-    └── stress/
-```
-
----
-
-## 🚢 Deployment
-
-### 🌐 Deployment Options
-
-<details>
-<summary><strong>Vercel (Recommended for Frontend)</strong></summary>
-
+**Frontend Tests:**
 ```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy to Vercel
-vercel --prod
-
-# Environment variables
-vercel env add NEXT_PUBLIC_API_URL
-vercel env add MONGODB_URI
+cd frontend
+npm test                   # Run all tests
+npm run test:watch        # Run tests in watch mode
+npm run test:coverage     # Generate coverage report
+npm run test:e2e          # Run end-to-end tests
 ```
 
-</details>
+### Test Coverage Goals
 
-<details>
-<summary><strong>Heroku (Full Stack)</strong></summary>
+- **Unit Tests**: 90%+ code coverage
+- **Integration Tests**: All API endpoints tested
+- **E2E Tests**: Critical user paths covered
+- **Performance Tests**: Load testing for key features
 
-```bash
-# Install Heroku CLI and login
-heroku login
+### Test Examples
 
-# Create Heroku app
-heroku create launchmate-app
-
-# Add MongoDB Atlas addon
-heroku addons:create mongolab:sandbox
-
-# Add Redis addon
-heroku addons:create heroku-redis:hobby-dev
-
-# Set environment variables
-heroku config:set NODE_ENV=production
-heroku config:set JWT_SECRET=your-production-secret
-
-# Deploy
-git push heroku main
-```
-
-</details>
-
-<details>
-<summary><strong>AWS (Enterprise)</strong></summary>
-
-```bash
-# Using AWS CDK for infrastructure
-npm install -g aws-cdk
-
-# Deploy infrastructure
-cdk deploy LaunchMateStack
-
-# Deploy application
-aws ecs update-service --cluster launchmate --service launchmate-service
-```
-
-</details>
-
-<details>
-<summary><strong>Docker (Self-hosted)</strong></summary>
-
-```bash
-# Build and run with Docker Compose
-docker-compose up -d
-
-# Scale services
-docker-compose up -d --scale api=3 --scale worker=2
-
-# View logs
-docker-compose logs -f
-```
-
-</details>
-
-### 📋 Pre-deployment Checklist
-
-- [ ] Environment variables configured
-- [ ] Database migrations run
-- [ ] SSL certificates installed
-- [ ] CDN configured for static assets
-- [ ] Monitoring and logging setup
-- [ ] Backup strategy implemented
-- [ ] Load balancer configured
-- [ ] Security headers configured
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! LaunchMate is built by entrepreneurs, for entrepreneurs.
-
-### 🌟 Ways to Contribute
-
-- 🐛 **Bug Reports**: Help us identify and fix issues
-- 💡 **Feature Requests**: Suggest new features and improvements
-- 📝 **Documentation**: Improve our docs and guides
-- 🔧 **Code Contributions**: Submit pull requests
-- 🎨 **Design**: Contribute to UI/UX improvements
-- 📊 **Data**: Share launch insights and case studies
-
-### 📋 Contribution Process
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### 🎯 Development Guidelines
-
-<details>
-<summary><strong>Code Style & Standards</strong></summary>
-
+**Backend Unit Test:**
 ```javascript
-// Use TypeScript for type safety
-interface LaunchData {
-  title: string;
-  description: string;
-  targetDate: Date;
-  category: LaunchCategory;
-}
-
-// Follow naming conventions
-const createLaunchHandler = async (req: Request, res: Response) => {
-  // Implementation
-};
-
-// Write comprehensive tests
-describe('Launch Service', () => {
-  it('should create a new launch successfully', async () => {
-    // Test implementation
+describe('Subscriber Model', () => {
+  test('should create a new subscriber', async () => {
+    const subscriberData = {
+      email: 'test@example.com',
+      name: 'Test User'
+    };
+    
+    const subscriber = new Subscriber(subscriberData);
+    const savedSubscriber = await subscriber.save();
+    
+    expect(savedSubscriber.email).toBe(subscriberData.email);
+    expect(savedSubscriber.name).toBe(subscriberData.name);
   });
 });
 ```
 
-</details>
+**Frontend Component Test:**
+```typescript
+import { render, screen, fireEvent } from '@testing-library/react';
+import { Button } from '../components/UI/Button';
 
-### 🏆 Recognition
-
-Contributors are recognized in our:
-- 📜 Contributors section in README
-- 🎉 Monthly contributor spotlight
-- 🏅 Special badges in the community
-- 📈 Contribution leaderboard
-
----
-
-## 🗺️ Roadmap
-
-### 🚀 Q1 2024 - Foundation
-
-- [x] Core launch management features
-- [x] User authentication and profiles
-- [x] Basic community features
-- [x] Mobile-responsive design
-- [ ] Advanced analytics dashboard
-- [ ] Integration with popular tools
-
-### 📈 Q2 2024 - Growth
-
-- [ ] AI-powered launch recommendations
-- [ ] Advanced mentor matching algorithm
-- [ ] White-label solutions for accelerators
-- [ ] Mobile app (iOS/Android)
-- [ ] Advanced collaboration tools
-- [ ] Marketplace for launch services
-
-### 🌟 Q3 2024 - Scale
-
-- [ ] Enterprise features and SSO
-- [ ] Advanced analytics and reporting
-- [ ] API for third-party integrations
-- [ ] Multi-language support
-- [ ] Advanced automation workflows
-- [ ] Launch success prediction models
-
-### 🚀 Q4 2024 - Innovation
-
-- [ ] VR/AR launch presentation tools
-- [ ] Blockchain-based achievement system
-- [ ] Advanced AI launch assistant
-- [ ] Global launch event platform
-- [ ] Investor matching platform
-- [ ] Launch success insurance
-
-### 💡 Future Vision
-
-- **Global Launch Network**: Connect entrepreneurs worldwide
-- **AI Launch Coach**: Personalized AI guidance for every launch
-- **Launch Success Guarantee**: Data-backed launch success predictions
-- **Ecosystem Integration**: Deep integration with startup ecosystem tools
+describe('Button Component', () => {
+  test('renders button with correct text', () => {
+    render(<Button>Click me</Button>);
+    expect(screen.getByText('Click me')).toBeInTheDocument();
+  });
+  
+  test('calls onClick handler when clicked', () => {
+    const handleClick = jest.fn();
+    render(<Button onClick={handleClick}>Click me</Button>);
+    
+    fireEvent.click(screen.getByText('Click me'));
+    expect(handleClick).toHaveBeenCalledTimes(1);
+  });
+});
+```
 
 ---
 
-## 🔧 Troubleshooting
+## Deployment
 
-### Common Issues
+### Production Deployment Options
 
-<details>
-<summary><strong>🔌 Connection Issues</strong></summary>
+#### Option 1: Vercel + MongoDB Atlas (Recommended)
 
-**Problem**: Cannot connect to MongoDB
+**Frontend Deployment on Vercel:**
 ```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy frontend
+cd frontend
+vercel --prod
+```
+
+**Environment Variables on Vercel:**
+- `VITE_API_BASE_URL`: Your backend API URL
+- `VITE_APP_NAME`: LaunchMate
+- `VITE_ENABLE_ANALYTICS`: true
+
+**Backend Deployment on Railway/Render:**
+```bash
+# Example for Railway
+railway login
+railway init
+railway add MongoDB
+railway deploy
+```
+
+#### Option 2: Docker Deployment
+
+**Docker Compose Configuration:**
+```yaml
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_BASE_URL=http://backend:5000/api
+    depends_on:
+      - backend
+  
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/launchmate
+      - JWT_SECRET=${JWT_SECRET}
+    depends_on:
+      - mongo
+  
+  mongo:
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
+```
+
+**Deploy with Docker:**
+```bash
+# Build and run all services
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop services
+docker-compose down
+```
+
+### Production Environment Setup
+
+**Production Environment Variables:**
+```env
+# Backend Production Config
+NODE_ENV=production
+PORT=5000
+MONGODB_URI=your-production-mongodb-uri
+JWT_SECRET=your-very-secure-production-secret
+CORS_ORIGIN=https://your-domain.com
+
+# Email Service
+SMTP_HOST=your-production-smtp-host
+SMTP_USER=your-production-email
+SMTP_PASS=your-production-password
+
+# Security
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+```
+
+### Monitoring and Logging
+
+**Health Check Endpoint:**
+```javascript
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    environment: process.env.NODE_ENV
+  });
+});
+```
+
+**Production Logging:**
+```javascript
+const winston = require('winston');
+
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.json()
+  ),
+  transports: [
+    new winston.transports.File({ filename: 'error.log', level: 'error' }),
+    new winston.transports.File({ filename: 'combined.log' })
+  ]
+});
+```
+
+---
+
+## Contributing
+
+We welcome contributions from the community! LaunchMate is built by entrepreneurs, for entrepreneurs.
+
+### How to Contribute
+
+1. **Bug Reports**: Help us identify and fix issues
+2. **Feature Requests**: Suggest new features and improvements
+3. **Documentation**: Improve our docs and guides
+4. **Code Contributions**: Submit pull requests
+5. **Design**: Contribute to UI/UX improvements
+6. **Translations**: Help with Hindi localization
+
+### Contribution Guidelines
+
+1. **Fork the Repository**
+   ```bash
+   git clone https://github.com/your-username/launchmate.git
+   cd launchmate
+   ```
+
+2. **Create a Feature Branch**
+   ```bash
+   git checkout -b feature/amazing-new-feature
+   ```
+
+3. **Make Your Changes**
+   - Follow our coding standards
+   - Write tests for new features
+   - Update documentation as needed
+   - Ensure all tests pass
+
+4. **Commit Your Changes**
+   ```bash
+   git add .
+   git commit -m "feat: add amazing new feature"
+   ```
+
+5. **Push to Your Fork**
+   ```bash
+   git push origin feature/amazing-new-feature
+   ```
+
+6. **Submit a Pull Request**
+   - Provide a clear description of changes
+   - Reference any related issues
+   - Include screenshots for UI changes
+
+### Development Standards
+
+**Code Style:**
+- Use TypeScript for type safety
+- Follow ESLint configuration
+- Use Prettier for code formatting
+- Write meaningful commit messages (Conventional Commits)
+
+**Testing Requirements:**
+- Unit tests for new functions
+- Integration tests for API endpoints
+- Update existing tests if needed
+- Maintain test coverage above 90%
+
+**Documentation:**
+- Update README if needed
+- Add JSDoc comments for new functions
+- Update API documentation
+- Include inline comments for complex logic
+
+### Recognition
+
+Contributors are recognized through:
+- Contributors section in README
+- Monthly contributor spotlight in our newsletter
+- Special badges in our community Discord
+- Contribution leaderboard on our website
+
+---
+
+## Troubleshooting
+
+### Common Issues and Solutions
+
+#### Connection Issues
+
+**Problem: Cannot connect to MongoDB**
+```
 Error: MongoNetworkError: failed to connect to server
 ```
 
-**Solution**:
-1. Ensure MongoDB is running: `brew services start mongodb-community`
-2. Check connection string in `.env`
-3. Verify network connectivity
-4. Check firewall settings
+**Solutions:**
+1. Ensure MongoDB is running:
+   ```bash
+   # macOS with Homebrew
+   brew services start mongodb-community
+   
+   # Ubuntu/Debian
+   sudo systemctl start mongod
+   
+   # Windows
+   net start MongoDB
+   ```
 
-</details>
+2. Check your MongoDB connection string in `.env`:
+   ```env
+   MONGODB_URI=mongodb://localhost:27017/launchmate
+   ```
 
-<details>
-<summary><strong>🔑 Authentication Errors</strong></summary>
+3. Verify MongoDB is accessible:
+   ```bash
+   mongo --eval "db.adminCommand('ismaster')"
+   ```
 
-**Problem**: JWT token validation fails
-```bash
+#### Authentication Errors
+
+**Problem: JWT token validation fails**
+```
 Error: JsonWebTokenError: invalid signature
 ```
 
-**Solution**:
-1. Verify `JWT_SECRET` in environment variables
-2. Clear browser localStorage/cookies
-3. Check token expiration settings
-4. Ensure consistent secret across services
+**Solutions:**
+1. Verify `JWT_SECRET` in your environment variables
+2. Clear browser localStorage and cookies:
+   ```javascript
+   localStorage.clear();
+   document.cookie.split(";").forEach(c => {
+     document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+   });
+   ```
+3. Check token expiration settings in backend configuration
 
-</details>
+#### Dependency Issues
 
-<details>
-<summary><strong>📦 Dependency Issues</strong></summary>
-
-**Problem**: Module not found errors
-```bash
+**Problem: Module not found errors**
+```
 Error: Cannot find module 'some-package'
 ```
 
-**Solution**:
-1. Delete `node_modules` and `package-lock.json`
-2. Run `npm install` again
-3. Check Node.js version compatibility
-4. Clear npm cache: `npm cache clean --force`
+**Solutions:**
+1. Delete node_modules and reinstall:
+   ```bash
+   rm -rf node_modules package-lock.json
+   npm install
+   ```
 
-</details>
+2. Check Node.js version compatibility:
+   ```bash
+   node --version  # Should be 18.x or higher
+   npm --version   # Should be 9.x or higher
+   ```
 
-<details>
-<summary><strong>🚀 Performance Issues</strong></summary>
+3. Clear npm cache:
+   ```bash
+   npm cache clean --force
+   ```
 
-**Problem**: Slow API responses
+#### Performance Issues
 
-**Solution**:
-1. Check database indexes
-2. Enable Redis caching
-3. Optimize database queries
-4. Monitor server resources
-5. Enable compression middleware
+**Problem: Slow API responses or frontend loading**
 
-</details>
+**Solutions:**
+1. Check database indexes:
+   ```javascript
+   // Add indexes for frequently queried fields
+   db.users.createIndex({ email: 1 });
+   db.subscribers.createIndex({ email: 1, createdAt: -1 });
+   ```
 
-### 📞 Getting Help
+2. Enable development tools in browser to identify bottlenecks
+3. Check network tab for slow API calls
+4. Monitor MongoDB queries for optimization opportunities
 
-- 📚 **Documentation**: Check our [Wiki](https://github.com/abhinav-phi/LaunchMate/wiki)
-- 💬 **Community**: Join our [Discord](https://discord.gg/launchmate)
-- 🐛 **Issues**: Report bugs on [GitHub Issues](https://github.com/abhinav-phi/LaunchMate/issues)
-- 📧 **Email**: Contact us at support@launchmate.com
-- 📱 **Social**: Follow us on [Twitter](https://twitter.com/launchmate)
+#### Frontend Build Issues
+
+**Problem: Vite build fails or TypeScript errors**
+
+**Solutions:**
+1. Update TypeScript configuration:
+   ```bash
+   npm run type-check
+   ```
+
+2. Clear Vite cache:
+   ```bash
+   rm -rf node_modules/.vite
+   npm run dev
+   ```
+
+3. Check for missing type definitions:
+   ```bash
+   npm install --save-dev @types/node @types/react @types/react-dom
+   ```
+
+#### CORS Issues in Development
+
+**Problem: Cross-origin request blocked**
+
+**Solutions:**
+1. Update Vite proxy configuration in `vite.config.ts`:
+   ```typescript
+   export default defineConfig({
+     server: {
+       proxy: {
+         '/api': {
+           target: 'http://localhost:5000',
+           changeOrigin: true,
+           secure: false,
+         },
+       },
+     },
+   });
+   ```
+
+2. Configure CORS in backend:
+   ```javascript
+   const cors = require('cors');
+   app.use(cors({
+     origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+     credentials: true
+   }));
+   ```
+
+### Getting Help
+
+If you're still experiencing issues:
+
+- Check our [Wiki](https://github.com/abhinav-phi/launchmate/wiki) for detailed guides
+- Join our [Discord Community](https://discord.gg/launchmate) for real-time help
+- Create an issue on [GitHub Issues](https://github.com/abhinav-phi/launchmate/issues)
+- Contact our support team at [support@launchmate.dev](mailto:support@launchmate.dev)
 
 ---
 
-## 📄 License
+## Roadmap
+
+### Current Version (v1.0.0) - MVP
+- User authentication and profiles
+- Basic dashboard with analytics
+- Newsletter subscription system
+- Multi-language support (Hindi/English)
+- Responsive design for all devices
+- Document generator templates
+- Compliance calendar integration
+
+### Version 1.1.0 - Enhanced Compliance (Q3 2024)
+- Advanced approval tracking system
+- Integration with government APIs
+- AI-powered scheme recommendations
+- Real-time notification system
+- Export functionality for reports
+- Enhanced security features
+- Performance optimizations
+
+### Version 1.2.0 - User Experience (Q4 2024)
+- Progressive Web App (PWA) support
+- Enhanced AI assistant capabilities
+- Personalized dashboard widgets
+- Advanced analytics and reporting
+- Third-party integrations (GST, Banking)
+- Team collaboration features
+- Dark mode theme
+
+### Version 2.0.0 - Enterprise Features (Q1 2025)
+- Multi-tenant architecture
+- Enterprise SSO integration
+- Advanced analytics dashboard
+- Machine learning-powered insights
+- Native mobile applications
+- Support for multiple Indian states
+- Business intelligence tools
+
+### Future Vision (2025+)
+- Pan-India expansion with state-specific compliance
+- Marketplace for professional services
+- Educational platform for entrepreneurs
+- Startup competition and funding platform
+- Blockchain-based document verification
+- Advanced AI mentor system
+
+---
+
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### 📋 License Summary
+### License Summary
 
-- ✅ **Commercial use** - Use LaunchMate for commercial purposes
-- ✅ **Modification** - Modify the source code
-- ✅ **Distribution** - Distribute the software
-- ✅ **Private use** - Use LaunchMate privately
-- ❌ **Liability** - No warranty or liability
-- ❌ **Trademark use** - Cannot use LaunchMate trademarks
+```
+MIT License
+
+Copyright (c) 2024 LaunchMate Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### What this means:
+- **Commercial use** - Use LaunchMate for commercial purposes
+- **Modification** - Modify the source code to fit your needs
+- **Distribution** - Distribute the software freely
+- **Private use** - Use LaunchMate privately in your organization
+- **Patent use** - Use any patents that contributors may have
+
+### Limitations:
+- **Liability** - Authors are not liable for any damages
+- **Warranty** - No warranty is provided with the software
+- **Trademark use** - Cannot use LaunchMate trademarks without permission
 
 ---
 
-## 👥 Team
+## Team
 
-<div align="center">
-
-### 🚀 Core Team
+### Core Development Team
 
 <table>
   <tr>
     <td align="center">
       <img src="https://github.com/abhinav-phi.png" width="100px;" alt="Abhinav"/>
       <br />
-      <sub><b>Abhinav</b></sub>
+      <sub><b>Abhinav Sharma</b></sub>
       <br />
       <sub>Co-Founder & Lead Developer</sub>
       <br />
-      <a href="https://github.com/abhinav-phi">GitHub</a> |
+      <a href="https://github.com/abhinav-phi">GitHub</a> • 
       <a href="https://linkedin.com/in/abhinav-phi">LinkedIn</a>
+      <br />
+      <sub>Full-Stack Development, Architecture</sub>
     </td>
     <td align="center">
       <img src="https://github.com/daksh-dagar.png" width="100px;" alt="Daksh Dagar"/>
@@ -858,42 +1141,116 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
       <br />
       <sub>Co-Founder & Product Lead</sub>
       <br />
-      <a href="https://github.com/daksh-dagar">GitHub</a> |
+      <a href="https://github.com/daksh-dagar">GitHub</a> • 
       <a href="https://linkedin.com/in/daksh-dagar">LinkedIn</a>
+      <br />
+      <sub>Product Strategy, UI/UX Design</sub>
     </td>
   </tr>
 </table>
 
-### 🙏 Acknowledgments
+### Contributors
 
-- **Startup Community**: For inspiring this platform
-- **Open Source Contributors**: For making this possible
-- **Beta Users**: For valuable feedback and testing
-- **Mentors & Advisors**: For guidance and support
-- **Design Inspiration**: From successful startup platforms
+We're grateful to all our contributors who have helped make LaunchMate better:
 
-</div>
+[![Contributors](https://contrib.rocks/image?repo=abhinav-phi/launchmate)](https://github.com/abhinav-phi/launchmate/graphs/contributors)
+
+### Advisors & Mentors
+
+- **Industry Mentors**: Experienced entrepreneurs from Delhi startup ecosystem
+- **Technical Advisors**: Senior developers and architects
+- **Business Advisors**: Business development and strategy experts
+- **Legal Advisors**: Corporate law and compliance specialists
+
+### How to Join Our Team
+
+We're always looking for passionate individuals to join our mission:
+
+- **Developers**: Full-stack, frontend, backend specialists
+- **Designers**: UI/UX designers with startup experience
+- **Product Managers**: Experience with B2B SaaS products
+- **Growth Marketers**: Digital marketing and community building
+- **Technical Writers**: Documentation and content creation
+
+**Interested?** Reach out to us at [careers@launchmate.dev](mailto:careers@launchmate.dev)
+
+---
+
+## Acknowledgments
+
+### Special Thanks
+
+- **Delhi Startup Ecosystem**: For inspiring this platform and providing real-world insights
+- **Government of Delhi**: For digital initiatives that make compliance more accessible
+- **Open Source Community**: For the amazing tools and libraries that power LaunchMate
+- **Beta Users**: For valuable feedback, testing, and feature suggestions
+- **Contributors**: For code contributions, bug reports, and continuous improvement
+- **Mentors & Advisors**: For guidance, support, and industry expertise
+
+### Built With Amazing Tools
+
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose
+- **Development**: ESLint, Prettier, Git, GitHub Actions
+- **Deployment**: Vercel, Railway, MongoDB Atlas
+- **Monitoring**: Winston, Morgan, Performance APIs
+- **Design**: Figma, Lucide Icons, Google Fonts
+
+### Inspired By
+
+- **Successful Startup Platforms**: Learning from the best in the industry
+- **Government Digital Initiatives**: Building on existing digital infrastructure
+- **Entrepreneurship Communities**: Understanding real pain points and solutions
+- **Open Source Projects**: Following best practices and community standards
+
+---
+
+## Contact & Support
+
+### Connect With Us
+
+- **Website**: [https://launchmate.dev](https://launchmate.dev)
+- **Email**: [hello@launchmate.dev](mailto:hello@launchmate.dev)
+- **Discord**: [Join our Community](https://discord.gg/launchmate)
+- **Twitter**: [@LaunchMateApp](https://twitter.com/LaunchMateApp)
+- **LinkedIn**: [LaunchMate](https://linkedin.com/company/launchmate)
+
+### Support Channels
+
+- **Documentation**: [Wiki & Guides](https://github.com/abhinav-phi/launchmate/wiki)
+- **Bug Reports**: [GitHub Issues](https://github.com/abhinav-phi/launchmate/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/abhinav-phi/launchmate/discussions)
+- **Questions**: [Stack Overflow](https://stackoverflow.com/questions/tagged/launchmate)
+
+### Business Inquiries
+
+- **Partnerships**: [partnerships@launchmate.dev](mailto:partnerships@launchmate.dev)
+- **Enterprise**: [enterprise@launchmate.dev](mailto:enterprise@launchmate.dev)
+- **Press**: [press@launchmate.dev](mailto:press@launchmate.dev)
+- **Careers**: [careers@launchmate.dev](mailto:careers@launchmate.dev)
 
 ---
 
 <div align="center">
 
-### 🌟 Star History
+### Ready to Launch Your Startup?
 
-[![Star History Chart](https://api.star-history.com/svg?repos=abhinav-phi/LaunchMate&type=Date)](https://star-history.com/#abhinav-phi/LaunchMate&Date)
-
-### 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/abhinav-phi/LaunchMate?style=social)
-![GitHub forks](https://img.shields.io/github/forks/abhinav-phi/LaunchMate?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/abhinav-phi/LaunchMate?style=social)
+**[Get Started with LaunchMate →](https://launchmate.dev)**
 
 ---
 
-**Made with ❤️ by entrepreneurs, for entrepreneurs**
+**Made with ❤️ by entrepreneurs, for entrepreneurs in Delhi**
 
 *LaunchMate - Where Great Ideas Become Successful Launches*
 
-[🌐 Website](https://launchmate.com) • [📧 Contact](mailto:hello@launchmate.com) • [🐦 Twitter](https://twitter.com/launchmate) • [💼 LinkedIn](https://linkedin.com/company/launchmate)
+![LaunchMate Logo](frontend/public/assets/logo.png)
+
+---
+
+**Star us on GitHub** if LaunchMate helps your startup journey!
+
+[![GitHub stars](https://img.shields.io/github/stars/abhinav-phi/launchmate?style=social)](https://github.com/abhinav-phi/launchmate/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/abhinav-phi/launchmate?style=social)](https://github.com/abhinav-phi/launchmate/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/abhinav-phi/launchmate?style=social)](https://github.com/abhinav-phi/launchmate/watchers)
 
 </div>
